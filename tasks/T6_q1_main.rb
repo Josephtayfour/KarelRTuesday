@@ -4,14 +4,17 @@
 
 $graphical = true
 
-require_relative "joseph_robot2"
+require_relative "joseph_robot"
 
 # a task for a stair sweeper
-
+ 
   def task()
-    karel = JosephRobot2.new(3, 3, Robota::NORTH, 25)
-	karel.twentyfivesteps  
+    world = Robota::World
+  world.read_world("../worlds/Joseph")
+    karel = JosephRobot.new(3, 3, Robota::NORTH, 5)
+	karel.fivesteps
   end
+
 if __FILE__ == $0
   if $graphical
      screen = window(8, 40) # (size, speed)

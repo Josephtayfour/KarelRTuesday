@@ -2,61 +2,21 @@ require_relative "joseph_robot"
 # MON premier robot
 class JosephRobot2  < JosephRobot
 
-def fivesteps2 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-   		move
-    	put_beeper 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-    	turn_right 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-   		move
-    	put_beeper 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
+def twentyfivesteps 
+    	fivesteps
+    	turn_right
+    	
+    	fivesteps
     	turn_left
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-   		move
-    	put_beeper 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-    	turn_right 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-   		move
-    	put_beeper 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
+    	
+    	fivesteps
+    	turn_right
+    	
+    	fivesteps
     	turn_left
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-   		move
-    	put_beeper 
-    	move
-    	put_beeper 
-    	move
-    	put_beeper
-    	turn_right 
+    	
+    	fivesteps
+    	turn_right
+    	
     end
 end
