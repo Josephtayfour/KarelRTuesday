@@ -6,22 +6,43 @@ $graphical = true
 
 require_relative "joseph_robot"
 def task ()
-# a task for a stair sweeper
     world = Robota::World
-##  world.read_world("../worlds/Joseph")
+  world.read_world("../worlds/brocoli")
     
-    karel = JosephRobot.new(5, 2, Robota::EAST, 10)
-  	karel.fourbeepers
+    karel = JosephRobot.new(1, 6, Robota::NORTH, 16)
+  	karel.move
+    karel.fourbeeperspick
     karel.turn_right 
     karel.move
     karel.turn_right 
     karel.move
-    karel.threebeepers 
+    karel.threebeeperspick
     karel.turn_left 
     karel.move
     karel.turn_left 
     karel.move 
-    karel.twobeepers
+    karel.twobeeperspick
+    karel.turn_right 
+    karel.move
+    karel.turn_right 
+    karel.move
+    karel.put_beeper
+    karel.move
+    karel.move
+    karel.move
+    karel.turn_right 
+    karel.move
+    karel.move
+    karel.move
+    karel.move
+    karel.turn_right 
+    karel.move 
+    karel.threebeeperspick
+    karel.turn_left 
+    karel.move
+    karel.turn_left 
+    karel.move 
+    karel.twobeeperspick
     karel.turn_right 
     karel.move
     karel.turn_right 

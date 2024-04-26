@@ -1,4 +1,5 @@
 require_relative "../karel/ur_robot"
+require_relative "../mixins/turner"
 # MON premier robot
 class JosephRobot  < UrRobot
 
@@ -29,4 +30,66 @@ class JosephRobot  < UrRobot
     	move
     	put_beeper 
   	end
+ 
+    def fourbeeperspick
+    	move
+    	pick_beeper 
+    	move
+    	pick_beeper
+   		move
+    	pick_beeper 
+    	move
+    	pick_beeper 
+    	move
+    	pick_beeper 
+  	end
+
+    def threebeeperspick 
+    	pick_beeper 
+    	move 
+    	move 
+    	pick_beeper 
+    	move 
+    	move 
+    	pick_beeper
+    end 
+
+    def twobeeperspick
+    	pick_beeper 
+    	move 
+    	move 
+    	pick_beeper 
+    end 
+
+    def fourbeepers
+    	put_beeper 
+    	move 
+    	move 
+    	put_beeper 
+    	move 
+    	move 
+    	put_beeper 
+    	move 
+    	move 
+    	put_beeper
+    end
+
+    def threebeepers
+    	put_beeper 
+    	move 
+    	move 
+    	put_beeper 
+    	move 
+    	move 
+    	put_beeper
+    end 
+
+    def twobeepers
+        put_beeper 
+    	move 
+    	move 
+    	put_beeper 
+    end 
+
+
 end
