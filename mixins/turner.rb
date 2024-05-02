@@ -28,4 +28,42 @@ module Turner
     move
     turn_around
   end
+
+  def place10 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+    put_beeper
+    move 
+  end 
+
+  def place90degree
+    put_beeper
+    turn_right
+    move 
+    put_beeper
+    move 
+    put_beeper
+    turn_left 
+    move 
+    put_beeper 
+    move 
+    but_beeper
+    turn_right 
+    move
+    put_beeper
+  end
 end

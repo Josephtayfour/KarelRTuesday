@@ -20,48 +20,30 @@
 	"buffers":
 	[
 		{
-			"file": "T5_q1_main.rb",
+			"file": "test_q1.rb",
 			"settings":
 			{
-				"buffer_size": 590,
+				"buffer_size": 441,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "T5_q2_main.rb",
+			"file": "testnoel.rb",
 			"settings":
 			{
-				"buffer_size": 390,
+				"buffer_size": 822,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "T5_q2_robot.rb",
+			"file": "mainnoel.rb",
 			"settings":
 			{
-				"buffer_size": 392,
+				"buffer_size": 1203,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/osboxes/karel/default/main.rb",
-			"settings":
-			{
-				"buffer_size": 873,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main_joseph.rb",
-			"settings":
-			{
-				"buffer_size": 1552,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -74,19 +56,39 @@
 			}
 		},
 		{
-			"file": "joseph_robot.rb",
+			"contents": "KarelWorld\nbeepers 8 2 2\nbeepers 8 3 2\nbeepers 8 5 2\nbeepers 8 6 2\nbeepers 8 8 2\nbeepers 8 9 2\nbeepers 2 8 2\nbeepers 2 9 2\nbeepers 2 6 2\nbeepers 2 5 2\nbeepers 2 3 2\nbeepers 2 2 2\neastwestwalls 8 2 2\neastwestwalls 7 2 2\neastwestwalls 7 3 3\neastwestwalls 10 3 3\neastwestwalls 9 4 4\neastwestwalls 7 6 6\neastwestwalls 7 5 5\neastwestwalls 8 5 5\neastwestwalls 10 6 6\neastwestwalls 9 7 7\neastwestwalls 9 10 10\neastwestwalls 10 9 9\neastwestwalls 8 8 8\neastwestwalls 7 8 8\neastwestwalls 7 9 9\neastwestwalls 1 2 2\neastwestwalls 1 3 3\neastwestwalls 2 2 2\neastwestwalls 4 3 3\neastwestwalls 3 4 4\neastwestwalls 2 5 5\neastwestwalls 1 5 5\neastwestwalls 1 6 6\neastwestwalls 4 6 6\neastwestwalls 3 7 7\neastwestwalls 4 9 9\neastwestwalls 3 10 10\neastwestwalls 2 8 8\neastwestwalls 1 8 8\neastwestwalls 1 9 9\neastwestwalls 3 12 12\nnorthsouthwalls 1 8 8\nnorthsouthwalls 2 9 9\nnorthsouthwalls 3 8 8\nnorthsouthwalls 3 9 9\nnorthsouthwalls 2 10 10\nnorthsouthwalls 4 10 10\nnorthsouthwalls 4 11 11\nnorthsouthwalls 3 11 11\nnorthsouthwalls 6 8 8\nnorthsouthwalls 6 9 9\nnorthsouthwalls 4 8 8\nnorthsouthwalls 5 9 9\nnorthsouthwalls 5 10 10\nnorthsouthwalls 6 11 11\nnorthsouthwalls 7 10 10\nnorthsouthwalls 7 11 11\nnorthsouthwalls 7 8 8\nnorthsouthwalls 9 8 8\nnorthsouthwalls 9 9 9\nnorthsouthwalls 10 10 10\nnorthsouthwalls 10 11 11\nnorthsouthwalls 9 11 11\nnorthsouthwalls 8 10 10\nnorthsouthwalls 8 9 9\nnorthsouthwalls 10 4 4\nnorthsouthwalls 10 5 5\nnorthsouthwalls 9 5 5\nnorthsouthwalls 8 4 4\nnorthsouthwalls 8 3 3\nnorthsouthwalls 7 2 2\nnorthsouthwalls 9 2 2\nnorthsouthwalls 9 3 3\nnorthsouthwalls 6 3 3\nnorthsouthwalls 6 2 2\nnorthsouthwalls 7 4 4\nnorthsouthwalls 7 5 5\nnorthsouthwalls 6 5 5\nnorthsouthwalls 5 4 4\nnorthsouthwalls 5 3 3\nnorthsouthwalls 4 2 2\nnorthsouthwalls 1 2 2\nnorthsouthwalls 3 2 2\nnorthsouthwalls 3 3 3\nnorthsouthwalls 4 4 4\nnorthsouthwalls 4 5 5\nnorthsouthwalls 3 5 5\nnorthsouthwalls 2 4 4\nnorthsouthwalls 2 3 3\nnorthsouthwalls 11 1 1\nnorthsouthwalls 12 1 1\nnorthsouthwalls 12 2 2\nnorthsouthwalls 12 3 3\nnorthsouthwalls 11 2 2\n",
+			"file": "/home/osboxes/karel/karel/grinch.kwld",
+			"file_size": 2007,
+			"file_write_time": 133591289797633324,
 			"settings":
 			{
-				"buffer_size": 380,
+				"buffer_size": 2007,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main_pratique.rb",
+			"settings":
+			{
+				"buffer_size": 592,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "joseph_robot2.rb",
+			"file": "cinqrobots.rb",
 			"settings":
 			{
-				"buffer_size": 852,
+				"buffer_size": 596,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "clochetest.rb",
+			"settings":
+			{
+				"buffer_size": 1030,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -146,14 +148,34 @@
 	[
 		"/home/osboxes/karel",
 		"/home/osboxes/karel/karel",
-		"/home/osboxes/karel/tasks"
+		"/home/osboxes/karel/mixins",
+		"/home/osboxes/karel/tasks",
+		"/home/osboxes/karel/worlds"
 	],
 	"file_history":
 	[
-		"/home/osboxes/karel/tasks/main_joseph.rb",
-		"/home/osboxes/karel/tasks/joseph_robot.rb",
-		"/home/osboxes/karel/tasks/main.rb",
+		"/home/osboxes/karel/tasks/testnoel.rb",
+		"/home/osboxes/karel/tasks/T8_q3_main.rb",
+		"/home/osboxes/karel/tasks/pratique.rb",
+		"/home/osboxes/karel/tasks/T7_q1_main.rb",
+		"/home/osboxes/karel/tasks/T8_q2_main.rb",
+		"/home/osboxes/karel/tasks/T8_q1_main.rb",
+		"/home/osboxes/karel/tasks/T6_q2_main.rb",
+		"/home/osboxes/karel/tasks/T6_q1_main.rb",
+		"/home/osboxes/karel/default/main.rb",
 		"/home/osboxes/karel/karel/ur_robot.rb",
+		"/home/osboxes/karel/tasks/cinqrobots.rb",
+		"/home/osboxes/karel/tasks/robot_face_nord.rb",
+		"/home/osboxes/karel/mixins/turner.rb",
+		"/home/osboxes/karel/tasks/deux_bloc_robot.rb",
+		"/home/osboxes/karel/tasks/main_joseph.rb",
+		"/home/osboxes/karel/karel/world_maker.rb",
+		"/home/osboxes/karel/tasks/joseph_robot.rb",
+		"/home/osboxes/karel/tasks/joseph_robot2.rb",
+		"/home/osboxes/karel/tasks/T5_q2_robot.rb",
+		"/home/osboxes/karel/tasks/T5_q2_main.rb",
+		"/home/osboxes/karel/tasks/T5_q1_main.rb",
+		"/home/osboxes/karel/tasks/main.rb",
 		"/home/osboxes/Documents/KarelRTuesday/tasks/bowling.rb",
 		"/home/osboxes/Documents/KarelRTuesday/tasks/e_writer.rb",
 		"/home/osboxes/Documents/KarelRTuesday/tasks/h_writer.rb",
@@ -248,24 +270,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "T5_q1_main.rb",
+					"file": "test_q1.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 590,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								195
+								188,
+								188
 							]
 						],
 						"settings":
@@ -279,29 +301,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "T5_q2_main.rb",
+					"file": "testnoel.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 390,
+						"buffer_size": 822,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								293,
+								293
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -312,25 +336,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "T5_q2_robot.rb",
+					"file": "mainnoel.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 1203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								220,
+								220
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -341,66 +366,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/osboxes/karel/default/main.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "main_joseph.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1552,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1403,
-								1403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 263.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "stair_sweeper.rb",
 					"semi_transient": false,
 					"settings":
@@ -426,22 +391,80 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/osboxes/karel/karel/grinch.kwld",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "joseph_robot.rb",
+					"buffer": 5,
+					"file": "main_pratique.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 380,
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "cinqrobots.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 596,
 						"regions":
 						{
 						},
@@ -454,43 +477,47 @@
 						],
 						"settings":
 						{
+							"open_with_edit": true,
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "joseph_robot2.rb",
+					"file": "clochetest.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 852,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								848,
-								848
+								214,
+								214
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -517,7 +544,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
@@ -614,7 +641,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
