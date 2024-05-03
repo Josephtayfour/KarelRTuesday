@@ -1,5 +1,5 @@
 require_relative "../karel/ur_robot"
-require_relative "../mixins/turner"
+require_relative "../mixins/Turner"
 # MON premier robot
 class MainNoel  < UrRobot
 
@@ -30,7 +30,6 @@ include Turner
         turn_left 
         move
         move
-        move
         turn_right 
         move
         turn_left 
@@ -58,8 +57,19 @@ include Turner
         move
         move 
         move
-        move
         turn_right
+        move
+        move
+        move
+        move
+        move
+        move
+        turn_right 
+        move
+    end
+
+    def bigstep2
+        turn_right 
         turn_right 
         move
         move
@@ -67,7 +77,43 @@ include Turner
         move
         move
         move 
+        move
+        move
+        move 
+        move
         turn_right
+        move
+        move
+        move
+        turn_left
+        move
+        turn_right
+        move
+        move
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
+        put_beeper
     end
 
     def threebeeperspick 

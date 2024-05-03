@@ -21,6 +21,7 @@ class ClocheTest < UrRobot
     move
     put_beeper
     move
+    put_beeper
     turn_left
     move
     turn_left
@@ -35,6 +36,7 @@ class ClocheTest < UrRobot
     move
     put_beeper
     move
+    put_beeper
     turn_left
     move
     move
@@ -49,6 +51,7 @@ class ClocheTest < UrRobot
     move
     put_beeper
     move
+    put_beeper
   end
 
   def horizontalput

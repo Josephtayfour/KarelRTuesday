@@ -6,8 +6,8 @@ $graphical = true
 
 require_relative "ClocheTest"
 def task 
-  karel = Clochetest.new(1, 6, NORTH, 26)
-  karel.veticalput
+  karel = ClocheTest.new(1, 6, NORTH, 26)
+  karel.verticalput
   karel.horizontalput 
 end 
 
