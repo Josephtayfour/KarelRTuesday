@@ -1,0 +1,36 @@
+require_relative "joseph_robot"
+require_relative "../mixins/sensor_pack"
+# MON premier robot
+class JosephRobot2  < JosephRobot
+
+    include SensorPack
+
+    def twentyfivesteps 
+        	fivesteps
+        	turn_right
+        	
+        	fivesteps
+        	turn_left
+        	
+        	fivesteps
+        	turn_right
+        	
+        	fivesteps
+        	turn_left
+        	
+        	fivesteps
+        	turn_right
+    	
+     end
+
+     
+    def front_is_blocked?
+        !front_is_clear?
+    end
+
+    def move 
+        unless front_is_blocked?
+            super
+        end
+    end
+end
