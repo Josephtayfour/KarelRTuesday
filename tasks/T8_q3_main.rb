@@ -3,7 +3,6 @@
 #License: Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License
 
 $graphical = true
-require_relative "../karel/robota"
 require_relative "cinqrobots"
 def task 
   karel = Cinqrobots.new(1, 1, NORTH,1, :red)

@@ -1,7 +1,13 @@
 require_relative "../mixins/sensor_pack"
+require_relative "../karel/ur_robot"
+require_relative "../mixins/intelligent"
+
 # MON premier robot
+class JosephRobot2 < UrRobot
 
     include SensorPack
+
+    include Intelligent
 
     def twentyfivesteps 
         	fivesteps
@@ -145,8 +151,4 @@ require_relative "../mixins/sensor_pack"
         karel.checkbeeper
         karel.checkbeeper
     end    
-
-    def numero
-         
-
 end
