@@ -20,39 +20,29 @@
 	"buffers":
 	[
 		{
-			"file": "joseph_robot2.rb",
+			"file": "tachesommative1.rb",
 			"settings":
 			{
-				"buffer_size": 580,
+				"buffer_size": 179,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/osboxes/karel/mixins/sensor_pack.rb",
+			"file": "tache14laby_main.rb",
 			"settings":
 			{
-				"buffer_size": 1644,
+				"buffer_size": 506,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "main_joseph.rb",
+			"file": "tachesommativemain1.rb",
 			"settings":
 			{
-				"buffer_size": 1552,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "#!/opt/local/bin/ruby\n#Copyright 2012 Joseph Bergin\n#License: Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License\n\n$graphical = true\n\nrequire_relative \"joseph_robot2\"\n\n# a task for a stair sweeper\n\n\ndef task()\n \n  karel = JosephRobot2.new(1, 1, Robota::NORTH, 0)\n\nend\n\n\nif __FILE__ == $0\n  if $graphical\n     screen = window(8, 40) # (size, speed)\n     screen.run do\n       task\n     end\n   else\n     task\n   end\nend",
-			"file": "structures1.rb",
-			"file_size": 1653,
-			"file_write_time": 133580125483230698,
-			"settings":
-			{
-				"buffer_size": 445,
+				"buffer_size": 497,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -111,6 +101,28 @@
 	],
 	"file_history":
 	[
+		"/home/osboxes/karel/tasks/joseph_robot3.rb",
+		"/home/osboxes/karel/mixins/intelligent.rb",
+		"/home/osboxes/karel/mixins/intelligent2.rb",
+		"/home/osboxes/karel/tasks/tache14h_main.rb",
+		"/home/osboxes/karel/tasks/tache14g_main.rb",
+		"/home/osboxes/karel/tasks/joseph_robot2.rb",
+		"/home/osboxes/karel/tasks/tache14f_main.rb",
+		"/home/osboxes/karel/tasks/T8_q3_main.rb",
+		"/home/osboxes/karel/tasks/tache14e_main.rb",
+		"/home/osboxes/karel/tasks/t_#_q_3.rb",
+		"/home/osboxes/karel/tasks/tache14c_main.rb",
+		"/home/osboxes/karel/tasks/tache14b_main.rb",
+		"/home/osboxes/karel/tasks/tache14a_main.rb",
+		"/home/osboxes/karel/tasks/tache13b_main.rb",
+		"/home/osboxes/karel/tasks/tache13a_main.rb",
+		"/home/osboxes/karel/tasks/tache12c_main.rb",
+		"/home/osboxes/karel/tasks/tache12b_main.rb",
+		"/home/osboxes/karel/tasks/tache12_main.rb",
+		"/home/osboxes/karel/mixins/sensor_pack.rb",
+		"/home/osboxes/karel/tasks/T7_q1_main.rb",
+		"/home/osboxes/karel/tasks/t_#_q_3_robot",
+		"/home/osboxes/karel/tasks/structures1.rb",
 		"/home/osboxes/karel/tasks/main_pratique.rb",
 		"/home/osboxes/karel/tasks/test_q1.rb",
 		"/home/osboxes/karel/tasks/cinqrobots.rb",
@@ -122,9 +134,7 @@
 		"/home/osboxes/karel/tasks/clochetest.rb",
 		"/home/osboxes/karel/tasks/stair_sweeper.rb",
 		"/home/osboxes/karel/tasks/testnoel.rb",
-		"/home/osboxes/karel/tasks/T8_q3_main.rb",
 		"/home/osboxes/karel/tasks/pratique.rb",
-		"/home/osboxes/karel/tasks/T7_q1_main.rb",
 		"/home/osboxes/karel/tasks/T8_q2_main.rb",
 		"/home/osboxes/karel/tasks/T8_q1_main.rb",
 		"/home/osboxes/karel/tasks/T6_q2_main.rb",
@@ -136,7 +146,6 @@
 		"/home/osboxes/karel/tasks/main_joseph.rb",
 		"/home/osboxes/karel/karel/world_maker.rb",
 		"/home/osboxes/karel/tasks/joseph_robot.rb",
-		"/home/osboxes/karel/tasks/joseph_robot2.rb",
 		"/home/osboxes/karel/tasks/T5_q2_robot.rb",
 		"/home/osboxes/karel/tasks/T5_q2_main.rb",
 		"/home/osboxes/karel/tasks/T5_q1_main.rb",
@@ -235,120 +244,59 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "joseph_robot2.rb",
+					"file": "tachesommative1.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 580,
+						"buffer_size": 179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								537,
-								537
+								175,
+								175
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/osboxes/karel/mixins/sensor_pack.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "main_joseph.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1552,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "structures1.rb",
+					"buffer": 1,
+					"file": "tache14laby_main.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 445,
+						"buffer_size": 506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								263,
-								263
+								477,
+								477
 							]
 						],
 						"settings":
@@ -362,7 +310,38 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tachesommativemain1.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -396,7 +375,7 @@
 		"cols":
 		[
 			0.0,
-			0.415535259179,
+			0.423901416998,
 			1.0
 		],
 		"rows":
@@ -409,6 +388,10 @@
 	"output.Debugger":
 	{
 		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 96.0
 	},
 	"output.find_results":
 	{
@@ -448,7 +431,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
