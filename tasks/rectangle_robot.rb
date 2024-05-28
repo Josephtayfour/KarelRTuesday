@@ -5,18 +5,20 @@
 $graphical = true
 
 require_relative "tachesommative1"
+require_relative "../karel/robota"
 
-def task 
-    world = Robota::World
-    world.read_world("../worlds/toit.kwld")
-    karel = Tachesommative1.new(20, 2, Robota::SOUTH, 0)
-  end
-
+# a task for a stair sweeper
+def task()
+ world = Robota::World
+ world.read_world("../worlds/rectangle.kwld")
+  karel = Tachesommative1.new(2, 2, Robota::EAST, INFINITY)
+  karel.commence
+end
 if __FILE__ == $0
   if $graphical
-     screen = window(20, 70) # (size, speed)
+     screen = window(20, 100) # (size, speed)
      screen.run do
-       task 
+       task
      end
    else
      task
