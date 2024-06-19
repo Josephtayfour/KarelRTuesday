@@ -20,60 +20,54 @@
 	"buffers":
 	[
 		{
+			"file": "tf_q1.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "t_finale_robot.rb",
+			"settings":
+			{
+				"buffer_size": 1496,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "rectangle_robot.rb",
 			"settings":
 			{
 				"buffer_size": 572,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works even if disks are added and removed. See fstab(5).\n#\n# <file system> <mount point>   <type>  <options>       <dump>  <pass>\n# / was on /dev/sda1 during installation\nUUID=23495cad-6d8b-4ad4-9137-01545aa98584 /               ext4    errors=remount-ro 0       1\n# /boot was on /dev/sda2 during installation\nUUID=aa3fb88d-8a37-49a2-ae04-da9cc3894308 /boot           ext4    defaults        0       2\n# /home was on /dev/sda4 during installation\nUUID=411dbf59-db71-49f2-929f-dc071872997d /home           ext4    defaults        0       2\n# swap was on /dev/sda3 during installation\nUUID=e145eede-8017-4db7-99bc-8297ca6fb4cd none            swap    sw              0       0\n \nKarelRTuesday /home/osboxes/karel vboxsf defaults 0 0",
-			"file": "/etc/fstab",
-			"file_size": 922,
-			"file_write_time": 133571487581820379,
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 923,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "t_finale_main.rb",
+			"settings":
+			{
+				"buffer_size": 569,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "uber_stimulation_main.rb",
+			"file": "/home/osboxes/karel/worlds/tache_finale_b.kwld",
 			"settings":
 			{
-				"buffer_size": 351,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tachesommative1.rb",
-			"settings":
-			{
-				"buffer_size": 819,
-				"encoding": "UTF-8",
+				"buffer_size": 227,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "uber_simulation.rb",
-			"settings":
-			{
-				"buffer_size": 209,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tache14laby_main.rb",
-			"settings":
-			{
-				"buffer_size": 506,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -131,9 +125,41 @@
 	],
 	"file_history":
 	[
+		"/home/osboxes/karel/tasks/t_finale_main.rb",
+		"/home/osboxes/karel/tasks/t17_q10.rb",
+		"/home/osboxes/karel/tasks/ts_q2.rb",
+		"/home/osboxes/karel/tasks/ts_q1.rb",
+		"/home/osboxes/karel/tasks/tsommative_q1.rb",
+		"/home/osboxes/karel/tasks/t17_q1.rb",
+		"/home/osboxes/karel/tasks/t17_q2.rb",
+		"/home/osboxes/karel/tasks/t17_q3.rb",
+		"/home/osboxes/karel/tasks/t17_q9.rb",
+		"/home/osboxes/karel/tasks/t17_q13.rb",
+		"/home/osboxes/karel/tasks/t17_q12.rb",
+		"/home/osboxes/karel/tasks/t17_q11.rb",
+		"/home/osboxes/karel/tasks/t17_q8.rb",
+		"/home/osboxes/karel/tasks/t17_q7.rb",
+		"/home/osboxes/karel/tasks/t17_q6.rb",
+		"/home/osboxes/karel/tasks/t17_q5.rb",
+		"/home/osboxes/karel/tasks/t17_q4.rb",
+		"/home/osboxes/karel/tasks/tsom_q1.rb",
+		"/home/osboxes/karel/tasks/t2_q6.rb",
+		"/home/osboxes/karel/tasks/t2_q5.rb",
+		"/home/osboxes/karel/tasks/t2_q4.rb",
+		"/home/osboxes/karel/tasks/t2_q3.rb",
+		"/home/osboxes/karel/tasks/bonus_main.rb",
+		"/home/osboxes/karel/tasks/rectangle_robot.rb",
+		"/home/osboxes/karel/tasks/ambulance_robot.rb",
+		"/home/osboxes/karel/tasks/uber_main.rb",
+		"/home/osboxes/karel/tasks/ambulance_main.rb",
+		"/home/osboxes/karel/tasks/tache14laby_main.rb",
+		"/home/osboxes/karel/tasks/bonus-robot.rb",
+		"/home/osboxes/karel/tasks/tachesommative1.rb",
+		"/home/osboxes/karel/tasks/uber_simulation.rb",
+		"/etc/fstab",
+		"/home/osboxes/karel/worlds/rectangle (1).kwld",
 		"/home/osboxes/karel/tasks/tache14h_main.rb",
 		"/home/osboxes/karel/tasks/tachesommativemain1.rb",
-		"/home/osboxes/karel/tasks/tachesommative1.rb",
 		"/home/osboxes/karel/tasks/joseph_robot3.rb",
 		"/home/osboxes/karel/mixins/intelligent.rb",
 		"/home/osboxes/karel/mixins/intelligent2.rb",
@@ -226,26 +252,11 @@
 		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/replanter.rb",
 		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/section3.9.3.rb",
 		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/sloppy_but_valid.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/sparse_harvester.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/spy.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/strategy_layer.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/thread_racer.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/walk_listener.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/doc/classes/Checker.html",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/direction.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/tk_robot_world.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/ur_robot.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/world_maker.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/robot_world_base.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/robota.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/sensor_pack.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/stair_sweeper.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/test_robots.rb",
-		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/karel/robot_world.rb"
+		"/home/osboxes/Documents/KarelRuby/KarelRTuesday/default/sparse_harvester.rb"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -259,6 +270,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"end"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -281,8 +293,66 @@
 			[
 				{
 					"buffer": 0,
-					"file": "rectangle_robot.rb",
+					"file": "tf_q1.rb",
 					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "t_finale_robot.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rectangle_robot.rb",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 572,
@@ -292,8 +362,8 @@
 						"selection":
 						[
 							[
-								172,
-								172
+								0,
+								0
 							]
 						],
 						"settings":
@@ -308,22 +378,87 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
-					"buffer": 1,
-					"file": "/etc/fstab",
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 923,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "/home/osboxes/karel/tasks",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "t_finale_main.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/osboxes/karel/worlds/tache_finale_b.kwld",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -334,132 +469,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "uber_stimulation_main.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 351,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								199
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "tachesommative1.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 819,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								811,
-								811
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 52.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "uber_simulation.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "tache14laby_main.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								280,
-								280
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -467,7 +477,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -493,7 +503,7 @@
 		"cols":
 		[
 			0.0,
-			0.423901416998,
+			0.440632487787,
 			1.0
 		],
 		"rows":
@@ -519,7 +529,7 @@
 	"project": "tache 5.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -549,7 +559,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

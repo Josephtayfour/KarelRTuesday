@@ -4,15 +4,16 @@
 
 $graphical = true
 
-require_relative "uber_simulation"
+require_relative "bonus-robot"
 require_relative "../karel/robota"
 
 # a task for a stair sweeper
 def task()
  world = Robota::World
- world.read_world("../worlds/rectangle.kwld")
-  karel = UberRobot.new(1, 1, Robota::EAST, 0)
-  karel.commence
+ world.read_world("../worlds/bouger.kwld")
+  karel = BonusRobot.new(1, 1, Robota::EAST, 0)
+  karel.collect_and_move_beepers(area_width, area_height, offset_x, offset_y)
+  karel.turn_off
 end
 if __FILE__ == $0
   if $graphical
